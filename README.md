@@ -41,10 +41,15 @@ label: Category String. Name of the ransomware family (e.g., Cryptxxx, cryptoloc
 5.	After that, various supervised classification machine learning models was applied like logistic regression, KNN, SVM, Decision Tree, Random Forest, AdaBoost, XGBoost, Neural Networks. To evaluate our models, we have used metrics like accuracy, precision, recall, F1 score and ROC
 
 •	True positive rate (T P R) = T P/ (T P + F N ……………... (1)
+
 •	False positive rate (F P R) = F P/ (F P + T N) ……………. (2)
+
 •	Precision = T P/ (T P + F P) ………………………………. (3)
+
 •	Recall = T P/ (T P + F N) …………………………………. (4)
+
 •	F-measure = 2∗Precision∗Recall/ (Precision + Recall) …… (5)
+
 •	Accuracy = T P + T N/ (T P + T N + F P + F N) …………. (6)
 
 # Applicability Category
