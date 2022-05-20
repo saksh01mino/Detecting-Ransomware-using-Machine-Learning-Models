@@ -6,7 +6,7 @@ Deep learning and machine learning have an impact on every part of life. Because
 
 # Dataset
 
-The implementation starts with the gathering of data from UCI BitcoinHeistRansomwareAddressDataset. The dataset consists of 10 attributes anf the number of instances are 1048575. The features of the dataset are:
+The implementation starts with the gathering of data from UCI BitcoinHeistRansomwareAddressDataset. It consists of  The dataset consists of 10 attributes anf the number of instances are 1048575. The features of the dataset are:
 
 address: String. Bitcoin address.
 
