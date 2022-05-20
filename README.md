@@ -6,4 +6,16 @@ Deep learning and machine learning have an impact on every part of life. Because
 
 # Dataset
 
-The implementation starts with the gathering of data from Bitcoin Heist Ransomware Address dataset. The dataset consists of 10 attributes in which the last attribute is the target label of the bitcoin addresses. 
+The implementation starts with the gathering of data from UCI BitcoinHeistRansomwareAddressDataset. The dataset consists of 10 attributes anf the number of instances are 1048575. The features of the dataset are:
+
+Features
+address: String. Bitcoin address.
+year: Integer. Year.
+day: Integer. Day of the year. 1 is the first day, 365 is the last day.
+length: Integer.
+weight: Float.
+count: Integer.
+looped: Integer.
+neighbors: Integer.
+income: Integer. Satoshi amount (1 bitcoin = 100 million satoshis).
+label: Category String. Name of the ransomware family (e.g., Cryptxxx, cryptolocker etc) or white (i.e., not known to be ransomware).
